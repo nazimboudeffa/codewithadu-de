@@ -32,13 +32,16 @@ export default function Home() {
     </section>
     <section className="flex flex-col items-center justify-center min-h-screen py-2 bg-green-700">
       <p className="text-white">
-        You can donate what you want all around my little cloud
+        You can subscribe to my newsletter to get the latest news.
+      </p>
+      <p className="text-white">
+        I write in french and english.
       </p>
       <p className="text-white">
         <Link
-          href="https://github.com/nazimboudeffa"
+          href="https://nazimboudeffa.substack.com"
         > 
-        https://github.com/nazimboudeffa
+        https://nazimboudeffa.substack.com
         </Link>
       </p>
     </section>
