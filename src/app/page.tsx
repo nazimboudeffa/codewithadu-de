@@ -4,8 +4,8 @@ import hero from "/public/hero.png";
 
 export default function Home() {
   return (
-    <>
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <main>
+    <section className="flex flex-col items-center justify-center min-h-screen py-2">
       <Image
         src={hero}
         alt="hero"
@@ -18,8 +18,8 @@ export default function Home() {
       >
         One thing at a time !
       </Link>
-    </div>
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    </section>
+    <section className="flex flex-col items-center justify-center min-h-screen py-2">
       <p>
         I do not know what to put here, but I am sure it will be great.
       </p>
@@ -29,7 +29,19 @@ export default function Home() {
       <p>
         Just take it easy mankind.
       </p>
-    </div>
-    </>
+    </section>
+    <section className="flex flex-col items-center justify-center min-h-screen py-2 bg-green-700">
+      <p className="text-white">
+        You can donate what you want all around my little cloud
+      </p>
+      <p className="text-white">
+        <Link
+          href="https://github.com/nazimboudeffa"
+        > 
+        https://github.com/nazimboudeffa
+        </Link>
+      </p>
+    </section>
+    </main>
   );
 }
