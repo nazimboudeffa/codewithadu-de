@@ -16,7 +16,7 @@ export default function Home() {
       <Link className="absolute mt-10 px-20 py-5 bg-green-500 text-white rounded-lg hover:bg-green-600"
         href="https://github.com/nazimboudeffa/boilerplate-influence-nextjs-mongo"
       >
-        One thing at a time !
+        One thing at a time ! 🚀
       </Link>
     </section>
     <section className="flex flex-col items-center justify-center min-h-screen py-2">
