@@ -41,7 +41,7 @@ export default function Home() {
         <Link
           href="https://nazimboudeffa.substack.com"
         > 
-        👉https://nazimboudeffa.substack.com
+        👉 nazimboudeffa.substack.com
         </Link>
       </p>
     </section>
