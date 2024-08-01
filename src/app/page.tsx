@@ -14,7 +14,7 @@ export default function Home() {
         objectPosition="center"
       />
       <Link className="absolute mt-10 px-20 py-5 bg-green-500 text-white rounded-lg hover:bg-green-600"
-        href="https://github.com/nazimboudeffa/boilerplate-influence-nextjs-mongo"
+        href="https://calendar.app.google/2hRoLPEAMBY4AVSq8"
       >
         One thing at a time ! 🚀
       </Link>
