@@ -27,7 +27,14 @@ export default function Home() {
         I do not know how to evaluate time and budget, but I am sure that the problem will be solved.
       </p>
       <p className="text-xl mx-3 text-center">
-        Just take it easy mankind.
+        Just take it easy mankind, we all learn stuff everyday.
+      </p>
+      <p className="text-xl mx-3 text-center">
+        <Link
+          href="https://learn.codewithadu.de"
+        > 
+        👉 learn.codewithadu.de
+        </Link>
       </p>
     </section>
     <section className="flex flex-col items-center justify-center min-h-screen py-2 bg-green-700">
