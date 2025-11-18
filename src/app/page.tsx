@@ -29,10 +29,16 @@ export default function Home() {
         {t.intro.line1}
       </p>
       <p className="text-xl mx-3 text-center">
-        {t.intro.line2}<b>{t.intro.line2Bold}</b>.
+        {t.intro.line2}
       </p>
       <p className="text-xl mx-3 text-center">
         {t.intro.line3}
+      </p>
+      <p className="text-xl mx-3 text-center">
+        {t.intro.line4}
+      </p>
+      <p className="text-xl mx-3 text-center">
+        {t.intro.line5}
       </p>
     </section>
 

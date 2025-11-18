@@ -5,10 +5,11 @@ export const translations = {
         cta: "BOOK A CALL"
       },
       intro: {
-        line1: "You can ask me how much costs your project. I think that 300€ is fair price for a simple landing page.",
-        line2: "I do not know how to evaluate time and budget, instead, ",
-        line2Bold: "I prefer that you donate what you want",
-        line3: "Just take it easy mankind.",
+        line1: "You can ask me how much costs your project.",
+        line2: "I think that 300€ is a fair price for a simple landing page.",
+        line3: "I do not know how to evaluate time and budget.",
+        line4: "If you think that I can help you, I prefer that you donate what you want",
+        line5: "Just take it easy mankind.",
         templatesLink: "CHEK OUR TEMPLATES"
       },
       pricing: {
@@ -60,10 +61,11 @@ export const translations = {
         cta: "PRENDRE RENDEZ-VOUS"
       },
       intro: {
-        line1: "Vous pouvez me demander combien coûte votre projet. Je pense que 300€ est un prix juste pour une simple landing page.",
-        line2: "Je ne sais pas comment évaluer le temps et le budget, à la place, ",
-        line2Bold: "je préfère que vous donniez ce que vous voulez",
-        line3: "Prenez les choses avec philosophie.",
+        line1: "Vous pouvez me demander combien coûte votre projet.",
+        line2: "Je pense que 300€ est un prix juste pour une simple landing page.",
+        line3: "Je ne sais pas comment évaluer le temps et le budget.",
+        line4: "Si vous pensez que je peux vous aider, je préfère que vous donniez ce que vous voulez",
+        line5: "Prenez les choses avec philosophie.",
         templatesLink: "VOIR NOS TEMPLATES"
       },
       pricing: {
