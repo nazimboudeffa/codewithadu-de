@@ -1,7 +1,14 @@
+'use client';
+
 import Image from "next/image";
 import Link from "next/link";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { translations } from "@/translations";
 
 export default function Home() {
+  const { language } = useLanguage();
+  const t = translations[language].home;
+
   return (
     <main>
     <section className="relative flex flex-col items-center justify-center min-h-screen py-2">
@@ -14,24 +21,24 @@ export default function Home() {
       <Link className="absolute mt-10 px-20 py-5 bg-green-500 text-white rounded-lg hover:bg-green-600"
         href="https://calendar.app.google/2hRoLPEAMBY4AVSq8"
       >
-        BOOK A CALL WITH ME
+      {t.hero.cta}
       </Link>
     </section>
     <section className="flex flex-col items-center justify-center min-h-screen py-2">
       <p className="text-xl mx-3 text-center">
-        You can ask me wich template to use for your project. I think that 300€ is fair price for a simple landing page.
+        {t.intro.line1}
       </p>
       <p className="text-xl mx-3 text-center">
-        I do not know how to evaluate time and budget, instead, <b>I prefere that you donate what you want</b>.
+        {t.intro.line2}<b>{t.intro.line2Bold}</b>.
       </p>
       <p className="text-xl mx-3 text-center">
-        Just take it easy mankind. You can also use the templates as you want.
+        {t.intro.line3}
       </p>
       <p className="text-xl mx-3 text-center">
         <Link
           href="templates"
         > 
-        👉 <u>CHEK OUR TEMPLATES</u>
+        👉 <u>{t.intro.templatesLink}</u>
         </Link>
       </p>
     </section>
@@ -41,7 +48,7 @@ export default function Home() {
         <Link
           href="https://www.linkedin.com/in/nazimboudeffa"
         > 
-        👉 <u>KEEP IN TOUCH</u>
+        👉 <u>{t.footer.keepInTouch}</u>
         </Link>
       </p>
     </section>
