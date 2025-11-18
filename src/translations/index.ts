@@ -13,7 +13,7 @@ export const translations = {
       },
       pricing: {
         title: "How It Works",
-        subtitle: "A simple process, you are totally feee",
+        subtitle: "A simple process, you are totally free",
         learn: {
           title: "Learn",
           step1: "Discover JavaScript",
