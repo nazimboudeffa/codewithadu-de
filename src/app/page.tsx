@@ -73,7 +73,7 @@ export default function Home() {
                 <span className="text-gray-700">{t.pricing.learn.step5}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">👉</span>
                 <Link
                   href="https://learn.codewithadu.de"
                   target="_blank"
@@ -116,7 +116,7 @@ export default function Home() {
                 <span className="text-gray-700">{t.pricing.build.step5}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">👉</span>
                 <Link
                   href="/templates"
                 > 
@@ -154,7 +154,7 @@ export default function Home() {
                 <span className="text-gray-700">{t.pricing.ship.step5}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">👉</span>
                 <Link
                   target="_blank"
                   rel="noopener noreferrer"
