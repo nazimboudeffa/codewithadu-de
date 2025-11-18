@@ -34,14 +34,155 @@ export default function Home() {
       <p className="text-xl mx-3 text-center">
         {t.intro.line3}
       </p>
-      <p className="text-xl mx-3 text-center">
-        <Link
-          href="templates"
-        > 
-        👉 <u>{t.intro.templatesLink}</u>
-        </Link>
-      </p>
     </section>
+
+    {/* Pricing Section */}
+    <section className="flex flex-col items-center justify-center min-h-screen py-16 px-6 bg-black">
+      <div className="max-w-6xl w-full">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">{t.pricing.title}</h2>
+          <p className="text-xl text-gray-300">{t.pricing.subtitle}</p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          {/* Learn Column */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 border-2 border-gray-100 hover:border-green-500 transition-all duration-300 transform hover:scale-105">
+            <div className="text-center mb-8">
+              <div className="inline-block bg-green-100 rounded-full p-4 mb-4 text-3xl">📘</div>
+              <h3 className="text-gray-700 text-2xl font-bold mb-2">{t.pricing.learn.title}</h3>
+            </div>
+            <ul className="space-y-4 mb-8">
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-gray-700">{t.pricing.learn.step1}</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-gray-700">{t.pricing.learn.step2}</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-gray-700">{t.pricing.learn.step3}</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-gray-700">{t.pricing.learn.step4}</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-gray-700">{t.pricing.learn.step5}</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <Link
+                  href="https://learn.codewithadu.de"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                > 
+                <u className="text-gray-700">{t.pricing.learn.step6}</u>
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Build Column - Featured */}
+          <div className="bg-white rounded-2xl shadow-2xl p-8 border-2 border-green-500 transform scale-105 relative">
+            <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-6 py-1 rounded-full text-sm font-semibold">
+              Popular
+            </div>
+            <div className="text-center mb-8">
+              <div className="inline-block bg-green-100 rounded-full p-4 mb-4 text-3xl">🛠️</div>
+              <h3 className="text-gray-700 text-2xl font-bold mb-2">{t.pricing.build.title}</h3>
+            </div>
+            <ul className="space-y-4 mb-8">
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-gray-700">{t.pricing.build.step1}</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-gray-700">{t.pricing.build.step2}</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-gray-700">{t.pricing.build.step3}</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-gray-700">{t.pricing.build.step4}</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-gray-700">{t.pricing.build.step5}</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <Link
+                  href="/templates"
+                > 
+                <u className="text-gray-700">{t.pricing.build.step6}</u>
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Ship Column */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 border-2 border-gray-100 hover:border-green-500 transition-all duration-300 transform hover:scale-105">
+            <div className="text-center mb-8">
+              <div className="inline-block bg-green-100 rounded-full p-4 mb-4 text-3xl">🚀</div>
+              <h3 className="text-gray-700 text-2xl font-bold mb-2">{t.pricing.ship.title}</h3>
+            </div>
+            <ul className="space-y-4 mb-8">
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-gray-700">{t.pricing.ship.step1}</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-gray-700">{t.pricing.ship.step2}</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-gray-700">{t.pricing.ship.step3}</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-gray-700">{t.pricing.ship.step4}</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="text-gray-700">{t.pricing.ship.step5}</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://rapidosaas.com"
+                > 
+                <u className="text-gray-700">{t.pricing.ship.step6}</u>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Pricing Bottom */}
+        <div className="mt-12 text-center bg-white rounded-2xl shadow-xl p-8 max-w-2xl mx-auto border-2 border-green-500">
+          <div className="mb-6">
+            <div className="text-5xl font-bold text-green-600 mb-2">{t.pricing.price}</div>
+            <p className="text-gray-600 text-lg">{t.pricing.priceSubtitle}</p>
+          </div>
+          <Link 
+            href="https://calendar.app.google/2hRoLPEAMBY4AVSq8"
+            className="inline-block px-8 py-4 bg-green-500 text-white text-lg font-semibold rounded-lg hover:bg-green-600 transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+          >
+            {t.pricing.cta}
+          </Link>
+        </div>
+      </div>
+    </section>
+
     <section className="flex flex-col items-center justify-center min-h-screen py-2 bg-green-700">
       <p className="text-white text-xl mx-3 text-center">
         

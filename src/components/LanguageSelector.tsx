@@ -23,7 +23,7 @@ export default function LanguageSelector({ currentLang, onLanguageChange }: Lang
     <div className="fixed top-4 right-4 z-50">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="px-4 py-2 bg-black border border-gray-300 rounded-lg shadow-sm hover:bg-gray-500 transition-colors flex items-center gap-2"
+        className="px-4 py-2 bg-gray-700 border border-gray-300 rounded-lg shadow-sm hover:bg-gray-500 transition-colors flex items-center gap-2"
       >
         <span className="text-sm font-medium">{currentLanguage?.label}</span>
         <svg
@@ -32,7 +32,8 @@ export default function LanguageSelector({ currentLang, onLanguageChange }: Lang
           stroke="currentColor"
           viewBox="0 0 24 24"
         >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7
+          " />
         </svg>
       </button>
 
@@ -45,7 +46,7 @@ export default function LanguageSelector({ currentLang, onLanguageChange }: Lang
                 onLanguageChange(lang.code);
                 setIsOpen(false);
               }}
-              className={`w-full px-4 py-2 text-left text-sm hover:bg-gray-300 transition-colors ${
+              className={`w-full px-4 py-2 text-left text-sm hover:bg-gray-400 transition-colors ${
                 currentLang === lang.code ? 'bg-gray-500 font-semibold' : ''
               }`}
             >
