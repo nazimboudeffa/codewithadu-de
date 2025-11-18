@@ -2,7 +2,7 @@ export const translations = {
   en: {
     home: {
       hero: {
-        cta: "BOOK A CALL WITH ME"
+        cta: "BOOK A CALL"
       },
       intro: {
         line1: "You can ask me how much costs your project. I think that 300€ is fair price for a simple landing page.",
