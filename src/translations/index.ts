@@ -5,7 +5,7 @@ export const translations = {
         cta: "BOOK A CALL WITH ME"
       },
       intro: {
-        line1: "You can ask me which template to use for your project. I think that 300€ is fair price for a simple landing page.",
+        line1: "You can ask me how much costs your project. I think that 300€ is fair price for a simple landing page.",
         line2: "I do not know how to evaluate time and budget, instead, ",
         line2Bold: "I prefer that you donate what you want",
         line3: "Just take it easy mankind.",
@@ -60,7 +60,7 @@ export const translations = {
         cta: "PRENDRE RENDEZ-VOUS"
       },
       intro: {
-        line1: "Vous pouvez me demander quel template utiliser pour votre projet. Je pense que 300€ est un prix juste pour une simple landing page.",
+        line1: "Vous pouvez me demander combien coûte votre projet. Je pense que 300€ est un prix juste pour une simple landing page.",
         line2: "Je ne sais pas comment évaluer le temps et le budget, à la place, ",
         line2Bold: "je préfère que vous donniez ce que vous voulez",
         line3: "Prenez les choses avec philosophie.",
