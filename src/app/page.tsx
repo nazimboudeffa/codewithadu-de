@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { translations } from "@/translations";
+import IntroFAQ from "@/components/IntroFAQ";
 
 export default function Home() {
   const { language } = useLanguage();
@@ -25,21 +26,23 @@ export default function Home() {
       </Link>
     </section>
     <section className="flex flex-col items-center justify-center min-h-screen py-2">
-      <p className="text-xl mx-3 text-center">
+      <div className="w-full max-w-3xl space-y-4 border-l-4 border-green-500 pl-4">
+      <p className="text-lg md:text-xl leading-relaxed">
         {t.intro.line1}
       </p>
-      <p className="text-xl mx-3 text-center">
+      <p className="text-lg md:text-xl leading-relaxed">
         {t.intro.line2}
       </p>
-      <p className="text-xl mx-3 text-center">
+      <p className="text-lg md:text-xl leading-relaxed">
         {t.intro.line3}
       </p>
-      <p className="text-xl mx-3 text-center">
+      <p className="text-lg md:text-xl leading-relaxed">
         {t.intro.line4}
       </p>
-      <p className="text-xl mx-3 text-center">
+      <p className="text-lg md:text-xl leading-relaxed">
         {t.intro.line5}
       </p>
+      </div>
     </section>
 
     {/* Pricing Section */}
@@ -94,7 +97,7 @@ export default function Home() {
           {/* Build Column - Featured */}
           <div className="bg-white rounded-2xl shadow-2xl p-8 border-2 border-green-500 transform scale-105 relative">
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-6 py-1 rounded-full text-sm font-semibold">
-              Popular
+              {t.pricing.build.featured}
             </div>
             <div className="text-center mb-8">
               <div className="inline-block bg-green-100 rounded-full p-4 mb-4 text-3xl">🛠️</div>
@@ -188,6 +191,8 @@ export default function Home() {
         </div>
       </div>
     </section>
+
+    <IntroFAQ />
 
     <section className="flex flex-col items-center justify-center min-h-screen py-2 bg-green-700">
       <p className="text-white text-xl mx-3 text-center">

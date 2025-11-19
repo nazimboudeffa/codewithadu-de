@@ -10,7 +10,6 @@ export const translations = {
         line3: "I do not know how to evaluate time and budget.",
         line4: "If you think that I can help you, I prefer that you donate what you want",
         line5: "Just take it easy mankind.",
-        templatesLink: "CHEK OUR TEMPLATES"
       },
       pricing: {
         title: "How It Works",
@@ -26,6 +25,7 @@ export const translations = {
         },
         build: {
           title: "Build",
+          featured: "Interesting",
           step1: "Choose your template",
           step2: "Customize design",
           step3: "Add your content",
@@ -42,12 +42,28 @@ export const translations = {
           step5: "Iterate & improve",
           step6: "rapidosaas.com"
         },
-        price: "Donate What You Want",
+        price: "Donate instead",
         priceSubtitle: "No fixed price, you decide the value",
         cta: "Get Started"
       },
+      faq: {
+        questions: {
+          line1: "What is the typical turnaround time for a landing page?",
+          line2: "Can I see examples of your previous work?",
+          line3: "Do you offer revisions or edits after the initial design?",
+          line4: "What information do you need from me to get started?",
+          line5: "How do you handle responsive design for different devices?"
+        },
+        answers: {
+          line1: "A simple landing page usually takes 1 to 3 days depending on clarity of your content.",
+          line2: "Yes. you can check my github.com/nazimboudeffa.",
+          line3: "Minor text/style tweaks are free; bigger structural changes we revisit together.",
+          line4: "A short description of your goal, target audience, any must-have sections (hero, features, contact), and assets (logo, colors).",
+          line5: "All sections use responsive Tailwind utilities and I test across common breakpoints."
+        },
+      },
       footer: {
-        keepInTouch: "KEEP IN TOUCH"
+        keepInTouch: "KEEP IN TOUCH ON LINKEDIN"
       }
     },
     templates: {
@@ -66,7 +82,6 @@ export const translations = {
         line3: "Je ne sais pas comment évaluer le temps et le budget.",
         line4: "Si vous pensez que je peux vous aider, je préfère que vous donniez ce que vous voulez",
         line5: "Prenez les choses avec philosophie.",
-        templatesLink: "VOIR NOS TEMPLATES"
       },
       pricing: {
         title: "Comment ça marche",
@@ -82,6 +97,7 @@ export const translations = {
         },
         build: {
           title: "Construire",
+          featured: "Intéressant",
           step1: "Choisir votre template",
           step2: "Personnaliser le design",
           step3: "Ajouter votre contenu",
@@ -98,12 +114,28 @@ export const translations = {
           step5: "Itérer & améliorer",
           step6: "rapidosaas.com"
         },
-        price: "Donnez ce que vous voulez",
+        price: "Donnez plutôt",
         priceSubtitle: "Pas de prix fixe, vous décidez de la valeur",
         cta: "Commencer"
       },
+      faq: {
+        questions: {
+          line1: "Quel est le délai typique pour une landing page ?",
+          line2: "Puis-je voir des exemples de vos travaux précédents ?",
+          line3: "Offrez-vous des révisions ou des modifications après la conception initiale ?",
+          line4: "Quelles informations avez-vous besoin de ma part pour commencer ?",
+          line5: "Comment gérez-vous le design responsive pour différents appareils ?"
+        },
+        answers: {
+          line1: "Une landing page simple prend en général 1 à 3 jours selon la clarté de votre contenu.",
+          line2: "Oui. vous pouvez consulter mon github.com/nazimboudeffa.",
+          line3: "Les petites retouches (texte / style) sont incluses; les changements majeurs on les revoit ensemble.",
+          line4: "Une description de votre objectif, votre audience cible, les sections indispensables (hero, fonctionnalités, contact) et vos assets (logo, couleurs).",
+          line5: "Chaque section utilise Tailwind responsive et je teste plusieurs tailles d'écran."
+        },
+      },
       footer: {
-        keepInTouch: "RESTONS EN CONTACT"
+        keepInTouch: "RESTONS EN CONTACT SUR LINKEDIN"
       }
     },
     templates: {
