@@ -20,11 +20,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <PlausibleProvider domain="codewithadu.de" customDomain="https://plausible.codewithadu.de" />
+        <PlausibleProvider domain="codewithadu.de" customDomain="https://plausible.codewithadu.de">
         <LanguageProvider>
           <LanguageSelectorWrapper />
           {children}
         </LanguageProvider>
+        </PlausibleProvider>
       </body>
     </html>
   );
