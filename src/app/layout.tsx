@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import LanguageSelectorWrapper from "../components/LanguageSelectorWrapper";
+import PlausibleProvider from "next-plausible";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <PlausibleProvider domain="neofreelance.com" customDomain="https://plausible.codewithadu.de" />
+      </head>
       <body className={inter.className}>
         <LanguageProvider>
           <LanguageSelectorWrapper />
