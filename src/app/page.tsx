@@ -203,6 +203,9 @@ export default function Home() {
         👉 <u>{t.footer.keepInTouch}</u>
         </Link>
       </p>
+      <p className="text-white text-sm mt-4 mx-3 text-center">
+        {t.footer.note}
+      </p>
     </section>
     </main>
   );

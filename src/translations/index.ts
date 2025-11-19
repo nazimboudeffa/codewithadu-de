@@ -63,7 +63,8 @@ export const translations = {
         },
       },
       footer: {
-        keepInTouch: "KEEP IN TOUCH ON LINKEDIN"
+        keepInTouch: "KEEP IN TOUCH ON LINKEDIN",
+        note: "All this is a work in progress to have fun and improve my web development skills."
       }
     },
     templates: {
@@ -135,7 +136,8 @@ export const translations = {
         },
       },
       footer: {
-        keepInTouch: "RESTONS EN CONTACT SUR LINKEDIN"
+        keepInTouch: "RESTONS EN CONTACT SUR LINKEDIN",
+        note: "Tout ça est un travail en cours pour m'amuser et améliorer mes compétences en développement web.",
       }
     },
     templates: {
