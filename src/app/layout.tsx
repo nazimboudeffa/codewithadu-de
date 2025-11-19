@@ -19,10 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <PlausibleProvider domain="codewithadu.de" customDomain="https://plausible.codewithadu.de" />
-      </head>
       <body className={inter.className}>
+        <PlausibleProvider domain="codewithadu.de" customDomain="https://plausible.codewithadu.de" />
         <LanguageProvider>
           <LanguageSelectorWrapper />
           {children}
