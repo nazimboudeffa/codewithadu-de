@@ -15,7 +15,7 @@ export const translations = {
         title: "How It Works",
         subtitle: "A simple process, you are totally free",
         learn: {
-          title: "Learn",
+          title: "Learn and Code",
           step1: "Discover JavaScript",
           step2: "Explore algorithms",
           step3: "Ask questions",
@@ -24,18 +24,18 @@ export const translations = {
           step6: "learn.codewithadu.de"
         },
         build: {
-          title: "Build",
+          title: "Landing Pages",
           featured: "Interesting",
           step1: "Choose your template",
           step2: "Customize design",
           step3: "Add your content",
           step4: "Integrate features",
-          step5: "Test everything",
+          step5: "Be visible",
           step6: "/templates"
         },
         ship: {
-          title: "Ship",
-          step1: "Deploy your site",
+          title: "SaaS",
+          step1: "Deploy your SaaS",
           step2: "Launch online",
           step3: "Share with world",
           step4: "Get feedback",
