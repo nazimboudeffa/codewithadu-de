@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <PlausibleProvider domain="neofreelance.com" customDomain="https://plausible.codewithadu.de" />
+        <PlausibleProvider domain="codewithadu.de" customDomain="https://plausible.codewithadu.de" />
       </head>
       <body className={inter.className}>
         <LanguageProvider>
