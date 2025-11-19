@@ -19,11 +19,14 @@ export default function Home() {
         fill
         style={{ objectFit: "cover", objectPosition: "center" }}
       />
-      <Link className="absolute mt-10 px-20 py-5 bg-green-500 text-white rounded-lg hover:bg-green-600"
-        href="https://calendar.app.google/2hRoLPEAMBY4AVSq8"
-      >
-      {t.hero.cta}
-      </Link>
+      <div className="flex flex-col items-center justify-center absolute mt-10">
+        <h2 className="text-4xl md:text-5xl font-bold mb-5 text-white">{t.hero.title}</h2>
+        <Link className="text-center px-20 py-5 bg-green-500 text-white rounded-lg hover:bg-green-600"
+          href="https://calendar.app.google/2hRoLPEAMBY4AVSq8"
+        >
+        {t.hero.cta}
+        </Link>
+      </div>
     </section>
     <section className="flex flex-col items-center justify-center min-h-screen py-2">
       <div className="w-full max-w-3xl space-y-4 border-l-4 border-green-500 pl-4">

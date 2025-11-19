@@ -2,6 +2,7 @@ export const translations = {
   en: {
     home: {
       hero: {
+        title: "You want a cool web site?",
         cta: "BOOK A CALL"
       },
       intro: {
@@ -75,6 +76,7 @@ export const translations = {
   fr: {
     home: {
       hero: {
+        title: "Vous voulez un site web cool ?",
         cta: "PRENDRE RENDEZ-VOUS"
       },
       intro: {
