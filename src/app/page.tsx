@@ -209,6 +209,21 @@ export default function Home() {
       <p className="text-white text-sm mt-4 mx-3 text-center">
         {t.footer.note}
       </p>
+      {/* YouTube Video Embed */}
+      <div className="w-full max-w-4xl mx-auto mt-8 px-4">
+        <div className="relative w-full rounded-lg overflow-hidden shadow-xl">
+          <div className="relative w-full pb-[56.25%]">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube-nocookie.com/embed/_ZKNoGa9eOI?rel=0"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </div>
     </section>
     </main>
   );
