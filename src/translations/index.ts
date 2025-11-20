@@ -6,11 +6,12 @@ export const translations = {
         cta: "BOOK A CALL"
       },
       intro: {
-        line1: "You can ask me how much costs your project in Next.js.",
+        line1: "You can ask me how much costs your project in Next.js",
         line2: "I think that 300€ is a fair price for a simple landing page.",
         line3: "I do not know how to evaluate time and budget.",
-        line4: "If you think that I can help you, I prefer that you donate what you want",
-        line5: "Just take it easy mankind.",
+        line4: "If you think that I can help you ...", 
+        line5: "I prefer that you donate what you want.",
+        line6: "Just take it easy mankind.",
       },
       pricing: {
         title: "How It Works",
@@ -80,11 +81,12 @@ export const translations = {
         cta: "PRENDRE RENDEZ-VOUS"
       },
       intro: {
-        line1: "Vous pouvez me demander combien coûte votre projet en Next.js.",
+        line1: "Vous pouvez me demander combien coûte votre projet en Next.js",
         line2: "Je pense que 300€ est un prix juste pour une simple landing page.",
         line3: "Je ne sais pas comment évaluer le temps et le budget.",
-        line4: "Si vous pensez que je peux vous aider, je préfère que vous donniez ce que vous voulez",
-        line5: "Prenez les choses avec philosophie.",
+        line4: "Si vous pensez que je peux vous aider ...",
+        line5: "Je préfère que vous donniez ce que vous voulez.",
+        line6: "Prenez les choses avec philosophie.",
       },
       pricing: {
         title: "Comment ça marche",

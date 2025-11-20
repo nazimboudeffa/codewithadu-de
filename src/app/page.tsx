@@ -45,6 +45,9 @@ export default function Home() {
       <p className="text-lg md:text-xl leading-relaxed">
         {t.intro.line5}
       </p>
+      <p className="text-lg md:text-xl leading-relaxed">
+        {t.intro.line6}
+      </p>
       </div>
     </section>
 
