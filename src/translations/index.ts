@@ -33,7 +33,7 @@ export const translations = {
           step3: "Add your content",
           step4: "Integrate features",
           step5: "Be visible",
-          step6: "/templates"
+          step6: "coolui.codewithadu.de"
         },
         ship: {
           title: "SaaS",
@@ -108,7 +108,7 @@ export const translations = {
           step3: "Ajouter votre contenu",
           step4: "Intégrer les fonctionnalités",
           step5: "Être visible",
-          step6: "/templates"
+          step6: "coolui.codewithadu.de"
         },
         ship: {
           title: "SaaS",
