@@ -36,11 +36,11 @@ export default function Home() {
         </Link>
       </div>
     </section>
-    <section className="flex flex-col items-center justify-center min-h-screen py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-gradient-to-br from-gray-50 via-white to-green-50 relative overflow-hidden">
+    <section className="flex flex-col items-center justify-center min-h-screen py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-gradient-to-br from-lime-50 via-green-50 to-emerald-50 relative overflow-hidden">
       <div className="w-full max-w-4xl space-y-4 sm:space-y-6 relative z-10">
         <div className="mb-6 sm:mb-8">
           <div className="w-16 sm:w-20 h-1 bg-gradient-to-r from-green-500 to-emerald-600 mb-4 sm:mb-6" />
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4">About My Approach</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-green-600 to-emerald-600 text-transparent bg-clip-text mb-4">{t.intro.aboutTitle}</h2>
         </div>
         
         <div className="space-y-4 sm:space-y-6 border-l-4 border-green-500 pl-4 sm:pl-6 md:pl-8 bg-white/60 backdrop-blur-sm p-4 sm:p-6 md:p-8 rounded-r-2xl shadow-xl">
@@ -67,14 +67,14 @@ export default function Home() {
     </section>
 
     {/* Pricing Section */}
-    <section className="flex flex-col items-center justify-center min-h-screen py-12 sm:py-16 px-4 sm:px-6 bg-gradient-to-br from-gray-900 via-black to-gray-900 relative overflow-hidden">
+    <section className="flex flex-col items-center justify-center min-h-screen py-12 sm:py-16 px-4 sm:px-6 bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 relative overflow-hidden">
       <div className="max-w-6xl w-full relative z-10">
         <div className="text-center mb-10 sm:mb-12 md:mb-16">
           <div className="inline-block mb-4 sm:mb-6">
             <div className="w-16 sm:w-20 h-1 bg-gradient-to-r from-green-500 to-emerald-600 mx-auto mb-3 sm:mb-4" />
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 sm:mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-500 px-4">{t.pricing.title}</h2>
-          <p className="text-lg sm:text-xl md:text-2xl text-gray-300 px-4">{t.pricing.subtitle}</p>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 sm:mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-600 px-4">{t.pricing.title}</h2>
+          <p className="text-lg sm:text-xl md:text-2xl text-gray-700 px-4">{t.pricing.subtitle}</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
@@ -82,28 +82,48 @@ export default function Home() {
           <div className="group bg-white rounded-2xl shadow-2xl p-6 sm:p-8 border-2 border-gray-100 hover:border-green-500 transition-all duration-500 transform hover:scale-105 hover:shadow-green-500/20 hover:shadow-2xl backdrop-blur-sm relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-green-50/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <div className="text-center mb-6 sm:mb-8 relative z-10">
-              <div className="inline-block bg-gradient-to-br from-green-100 to-emerald-100 rounded-full p-4 sm:p-5 mb-3 sm:mb-4 text-3xl sm:text-4xl shadow-lg group-hover:scale-110 transition-transform duration-300">📘</div>
+              <div className="inline-block bg-gradient-to-br from-green-100 to-emerald-100 rounded-full p-4 sm:p-5 mb-3 sm:mb-4 text-3xl sm:text-4xl shadow-lg group-hover:scale-110 transition-transform duration-300">🌱</div>
               <h3 className="text-gray-800 text-xl sm:text-2xl font-bold mb-2">{t.pricing.learn.title}</h3>
             </div>
             <ul className="space-y-4 mb-8 relative z-10">
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
                 <span className="text-gray-700">{t.pricing.learn.step1}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
                 <span className="text-gray-700">{t.pricing.learn.step2}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
                 <span className="text-gray-700">{t.pricing.learn.step3}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
                 <span className="text-gray-700">{t.pricing.learn.step4}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
                 <span className="text-gray-700">{t.pricing.learn.step5}</span>
               </li>
               <li className="flex items-start relative z-10">
@@ -127,28 +147,48 @@ export default function Home() {
               {t.pricing.build.featured}
             </div>
             <div className="text-center mb-6 sm:mb-8 relative z-10">
-              <div className="inline-block bg-gradient-to-br from-green-100 to-emerald-100 rounded-full p-4 sm:p-5 mb-3 sm:mb-4 text-3xl sm:text-4xl shadow-lg group-hover:scale-110 transition-transform duration-300">🛠️</div>
+              <div className="inline-block bg-gradient-to-br from-green-100 to-emerald-100 rounded-full p-4 sm:p-5 mb-3 sm:mb-4 text-3xl sm:text-4xl shadow-lg group-hover:scale-110 transition-transform duration-300">🚀</div>
               <h3 className="text-gray-800 text-xl sm:text-2xl font-bold mb-2">{t.pricing.build.title}</h3>
             </div>
             <ul className="space-y-4 mb-8 relative z-10">
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
                 <span className="text-gray-700">{t.pricing.build.step1}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
                 <span className="text-gray-700">{t.pricing.build.step2}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
                 <span className="text-gray-700">{t.pricing.build.step3}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
                 <span className="text-gray-700">{t.pricing.build.step4}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
                 <span className="text-gray-700">{t.pricing.build.step5}</span>
               </li>
               <li className="flex items-start relative z-10">
@@ -169,28 +209,48 @@ export default function Home() {
           <div className="group bg-white rounded-2xl shadow-2xl p-6 sm:p-8 border-2 border-gray-100 hover:border-green-500 transition-all duration-500 transform hover:scale-105 hover:shadow-green-500/20 hover:shadow-2xl backdrop-blur-sm relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-green-50/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <div className="text-center mb-6 sm:mb-8 relative z-10">
-              <div className="inline-block bg-gradient-to-br from-green-100 to-emerald-100 rounded-full p-4 sm:p-5 mb-3 sm:mb-4 text-3xl sm:text-4xl shadow-lg group-hover:scale-110 transition-transform duration-300">🚀</div>
+              <div className="inline-block bg-gradient-to-br from-green-100 to-emerald-100 rounded-full p-4 sm:p-5 mb-3 sm:mb-4 text-3xl sm:text-4xl shadow-lg group-hover:scale-110 transition-transform duration-300">🏆</div>
               <h3 className="text-gray-800 text-xl sm:text-2xl font-bold mb-2">{t.pricing.ship.title}</h3>
             </div>
             <ul className="space-y-4 mb-8 relative z-10">
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
                 <span className="text-gray-700">{t.pricing.ship.step1}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
                 <span className="text-gray-700">{t.pricing.ship.step2}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
                 <span className="text-gray-700">{t.pricing.ship.step3}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
                 <span className="text-gray-700">{t.pricing.ship.step4}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-3 mt-1 flex-shrink-0">✅</span>
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center mr-3 mt-0.5">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
                 <span className="text-gray-700">{t.pricing.ship.step5}</span>
               </li>
               <li className="flex items-start relative z-10">
@@ -228,25 +288,25 @@ export default function Home() {
 
     <IntroFAQ />
 
-    <section className="flex flex-col items-center justify-center min-h-screen py-12 sm:py-16 bg-gradient-to-br from-green-700 via-emerald-700 to-green-800 relative overflow-hidden">
+    <section className="flex flex-col items-center justify-center min-h-screen py-12 sm:py-16 bg-gradient-to-br from-green-50 via-teal-50 to-emerald-50 relative overflow-hidden">
       <div className="relative z-10 text-center mb-8 sm:mb-12 px-4">
-        <p className="text-white text-xl sm:text-2xl md:text-3xl font-semibold mb-4 sm:mb-6">
+        <p className="text-gray-800 text-xl sm:text-2xl md:text-3xl font-semibold mb-4 sm:mb-6">
           <Link
             href="https://www.linkedin.com/in/nazimboudeffa"
-            className="inline-flex items-center gap-2 sm:gap-3 hover:text-green-200 transition-colors duration-300 group"
+            className="inline-flex items-center gap-2 sm:gap-3 hover:text-green-600 transition-colors duration-300 group"
           > 
             <span className="text-2xl sm:text-3xl group-hover:scale-125 transition-transform duration-300">👉</span>
-            <span className="border-b-2 border-white/50 group-hover:border-green-200 transition-colors duration-300">{t.footer.keepInTouch}</span>
+            <span className="border-b-2 border-gray-800/50 group-hover:border-green-600 transition-colors duration-300">{t.footer.keepInTouch}</span>
           </Link>
         </p>
-        <p className="text-white/90 text-sm sm:text-base md:text-lg mt-4 sm:mt-6 mx-auto max-w-2xl leading-relaxed">
+        <p className="text-gray-700 text-sm sm:text-base md:text-lg mt-4 sm:mt-6 mx-auto max-w-2xl leading-relaxed">
           {t.footer.note}
         </p>
       </div>
       
       {/* YouTube Video Embed */}
       <div className="w-full max-w-5xl mx-auto px-4 sm:px-6 relative z-10">
-        <div className="relative w-full rounded-lg sm:rounded-2xl overflow-hidden shadow-2xl ring-2 sm:ring-4 ring-white/20 hover:ring-white/40 transition-all duration-300 transform sm:hover:scale-105">
+        <div className="relative w-full rounded-lg sm:rounded-2xl overflow-hidden shadow-2xl ring-2 sm:ring-4 ring-green-200/50 hover:ring-green-300 transition-all duration-300 transform sm:hover:scale-105">
           <div className="relative w-full pb-[56.25%] bg-black/20">
             <iframe
               className="absolute top-0 left-0 w-full h-full"

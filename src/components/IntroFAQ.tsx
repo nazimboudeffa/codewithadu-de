@@ -26,9 +26,9 @@ export default function IntroFAQ() {
   const [open, setOpen] = useState<string | null>(items[0].id);
 
   return (
-    <section className="relative w-full py-24 px-6 bg-gradient-to-b from-black to-green-700">
+    <section className="relative w-full py-24 px-6 bg-gradient-to-br from-teal-50 via-cyan-50 to-sky-50">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-center text-4xl md:text-5xl font-extrabold tracking-tight mb-12 bg-gradient-to-r from-green-600 to-emerald-400 text-transparent bg-clip-text">
+        <h2 className="text-center text-4xl md:text-5xl font-extrabold tracking-tight mb-12 bg-gradient-to-r from-teal-600 to-cyan-600 text-transparent bg-clip-text">
           FAQ
         </h2>
         <div className="space-y-4">
@@ -50,11 +50,11 @@ export default function IntroFAQ() {
                   aria-expanded={isOpen}
                   aria-controls={`panel-${item.id}`}
                   onClick={() => setOpen(isOpen ? null : item.id)}
-                  className={`w-full text-left flex items-center gap-4 px-6 py-5 bg-gradient-to-r ${item.gradient} backdrop-blur-sm transition`}
+                  className={`w-full text-left flex items-center gap-4 px-6 py-5 bg-gradient-to-r ${item.gradient} backdrop-blur-sm transition hover:opacity-90`}
                 >
                   <span className="text-2xl" aria-hidden="true">{item.icon}</span>
-                  <span className="flex-1 font-semibold text-gray-100">{item.text}</span>
-                  <span className="text-sm text-gray-100 font-medium select-none">{toggleLabel}</span>
+                  <span className="flex-1 font-semibold text-gray-800">{item.text}</span>
+                  <span className="text-sm text-gray-700 font-medium select-none">{toggleLabel}</span>
                 </button>
                 <section
                   id={`panel-${item.id}`}
