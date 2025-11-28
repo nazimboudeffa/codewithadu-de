@@ -23,7 +23,7 @@ export default function LanguageSelector({ currentLang, onLanguageChange }: Lang
     <div className="fixed top-4 right-4 z-50">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="px-4 py-2 bg-gray-700 border border-gray-300 rounded-lg shadow-sm hover:bg-gray-500 transition-colors flex items-center gap-2"
+        className="px-4 py-2 bg-purple-600 text-white border border-purple-400 rounded-lg shadow-sm hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-300 transition-colors flex items-center gap-2"
       >
         <span className="text-sm font-medium">{currentLanguage?.label}</span>
         <svg
@@ -38,7 +38,8 @@ export default function LanguageSelector({ currentLang, onLanguageChange }: Lang
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-40 bg-gray-500 border border-gray-300 rounded-lg shadow-lg overflow-hidden">
+        <div className="absolute right-0 mt-2 w-40 bg-white border border-purple-300 rounded-lg shadow-lg overflow-hidden"
+        >
           {languages.map((lang) => (
             <button
               key={lang.code}
@@ -46,8 +47,8 @@ export default function LanguageSelector({ currentLang, onLanguageChange }: Lang
                 onLanguageChange(lang.code);
                 setIsOpen(false);
               }}
-              className={`w-full px-4 py-2 text-left text-sm hover:bg-gray-400 transition-colors ${
-                currentLang === lang.code ? 'bg-gray-500 font-semibold' : ''
+              className={`w-full px-4 py-2 text-left text-sm hover:bg-purple-50 transition-colors ${
+                currentLang === lang.code ? 'bg-purple-100 text-purple-800 font-semibold' : 'text-gray-800'
               }`}
             >
               {lang.label}
