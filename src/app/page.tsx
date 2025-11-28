@@ -133,7 +133,7 @@ export default function Home() {
               <li className="flex items-start">
                 <span className="text-green-500 mr-3 mt-1 flex-shrink-0">👉</span>
                 <Link
-                  href="https://coolui.codewithadu.de"
+                  href="https://ui.codewithadu.de"
                 > 
                 <u className="text-gray-700">{t.pricing.build.step6}</u>
                 </Link>
@@ -173,7 +173,7 @@ export default function Home() {
                 <Link
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://rapidosaas.com"
+                  href="https://saas.codewithadu.de"
                 > 
                 <u className="text-gray-700">{t.pricing.ship.step6}</u>
                 </Link>

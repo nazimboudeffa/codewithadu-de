@@ -33,7 +33,7 @@ export const translations = {
           step3: "Add your content",
           step4: "Integrate features",
           step5: "Be visible",
-          step6: "coolui.codewithadu.de"
+          step6: "ui.codewithadu.de"
         },
         ship: {
           title: "SaaS",
@@ -42,7 +42,7 @@ export const translations = {
           step3: "Share with world",
           step4: "Get feedback",
           step5: "Iterate & improve",
-          step6: "rapidosaas.com"
+          step6: "saas.codewithadu.de"
         },
         price: "Donate instead",
         priceSubtitle: "No fixed price, you decide the value",
@@ -108,7 +108,7 @@ export const translations = {
           step3: "Ajouter votre contenu",
           step4: "Intégrer les fonctionnalités",
           step5: "Être visible",
-          step6: "coolui.codewithadu.de"
+          step6: "ui.codewithadu.de"
         },
         ship: {
           title: "SaaS",
@@ -117,7 +117,7 @@ export const translations = {
           step3: "Partager au monde",
           step4: "Recevoir des retours",
           step5: "Itérer & améliorer",
-          step6: "rapidosaas.com"
+          step6: "saas.codewithadu.de"
         },
         price: "Donnez plutôt",
         priceSubtitle: "Pas de prix fixe, vous décidez de la valeur",
