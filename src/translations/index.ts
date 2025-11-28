@@ -44,7 +44,7 @@ export const translations = {
           step5: "Iterate & improve",
           step6: "saas.codewithadu.de"
         },
-        price: "Donate instead",
+        price: "Donate Instead",
         priceSubtitle: "No fixed price, you decide the value",
         cta: "Get Started"
       },
@@ -57,7 +57,7 @@ export const translations = {
           line5: "How do you handle responsive design for different devices?"
         },
         answers: {
-          line1: "A simple landing page usually takes 1 to 3 days depending on clarity of your content.",
+          line1: "A simple landing page usually takes 1 to 3 days depending on the clarity of your content.",
           line2: "Yes. you can check my github.com/nazimboudeffa.",
           line3: "Minor text/style tweaks are free; bigger structural changes we revisit together.",
           line4: "A short description of your goal, target audience, any must-have sections (hero, features, contact), and assets (logo, colors).",
@@ -119,7 +119,7 @@ export const translations = {
           step5: "Itérer & améliorer",
           step6: "saas.codewithadu.de"
         },
-        price: "Donnez plutôt",
+        price: "Donnez Plutôt",
         priceSubtitle: "Pas de prix fixe, vous décidez de la valeur",
         cta: "Commencer"
       },
