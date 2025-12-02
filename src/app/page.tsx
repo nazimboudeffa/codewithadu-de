@@ -321,6 +321,14 @@ export default function Home() {
         </div>
       </div>
     </section>
+      {/* Footer with two example links */}
+      <footer className="w-full py-6 border-t bg-gray-50 mt-8">
+        <div className="max-w-5xl mx-auto flex flex-col px-4">
+          <h1 className="font-semibold text-gray-700 text-lg">Explore more experimentations</h1>
+          <a href="https://learn-gamedev-next16.vercel.app" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Learn GameDev</a>
+          <a href="https://learn-trading-next16.vercel.app" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Learn Trading</a>
+        </div>
+      </footer>
     </main>
   );
 }
