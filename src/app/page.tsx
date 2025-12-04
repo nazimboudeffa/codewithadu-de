@@ -327,6 +327,7 @@ export default function Home() {
           <h1 className="font-semibold text-gray-700 text-lg">Explore more experimentations</h1>
           <a href="https://learn-gamedev-next16.vercel.app" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Learn GameDev</a>
           <a href="https://learn-trading-next16.vercel.app" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Learn Trading</a>
+          <a href="https://learn-guitare-next16-phaser3.vercel.app" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Learn Guitare</a>
         </div>
       </footer>
     </main>
