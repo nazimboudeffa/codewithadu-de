@@ -294,11 +294,11 @@ export default function Home() {
           <span className="border-b-2 border-gray-800/50 group-hover:border-green-600 transition-colors duration-300">{t.footer.keepInTouch}</span>
         </p>
         <div className="flex justify-center items-center gap-4 mb-4">
-          <Link href="https://substack.com/@nazimboudeffa" target="_blank" rel="noopener noreferrer">
-            <Image src="/substack-logo.png" alt="Substack" width={40} height={40} />
-          </Link>
           <Link href="https://www.linkedin.com/in/nazimboudeffa" target="_blank" rel="noopener noreferrer">
             <Image src="/linkedin-logo.png" alt="LinkedIn" width={40} height={40} />
+          </Link>
+          <Link href="https://substack.com/@nazimboudeffa" target="_blank" rel="noopener noreferrer">
+            <Image src="/substack-logo.png" alt="Substack" width={40} height={40} />
           </Link>
         </div>
         <p className="text-gray-700 text-sm sm:text-base md:text-lg mt-4 sm:mt-6 mx-auto max-w-2xl leading-relaxed">

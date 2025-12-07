@@ -67,7 +67,7 @@ export const translations = {
       },
       footer: {
         keepInTouch: "KEEP IN TOUCH ON LINKEDIN",
-        note: "Even if it is serious, all this is a work in progress to have fun and improve my web development skills."
+        note: "Even if it is serious, all this work is in progress for the passion and to improve my web development skills."
       }
     },
     templates: {
@@ -143,7 +143,7 @@ export const translations = {
       },
       footer: {
         keepInTouch: "RESTONS EN CONTACT SUR LINKEDIN",
-        note: "Même si c'est sérieux, tout ça est un travail en cours pour m'amuser et améliorer mes compétences en développement web.",
+        note: "Même si c'est sérieux, tout ce travail est en cours pour la passion et pour améliorer mes compétences en développement web.",
       }
     },
     templates: {
